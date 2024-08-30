@@ -212,7 +212,7 @@ export default function PublicCollectionGallery() {
                 const t = currentURL.searchParams.get("t");
                 const ck = currentURL.hash.slice(1);
                 if (!t && !ck) {
-                    window.location.href = "https://ente.io";
+                    window.location.href = "https://ente.jospace.de";
                     redirectingToWebsite = true;
                 }
                 if (!t || !ck) {
