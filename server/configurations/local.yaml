@@ -77,7 +77,7 @@ apps:
     #
     # If you're running a self hosted instance and wish to serve public links,
     # set this to the URL where your albums web app is running.
-    public-albums:
+    public-albums: https://albums.ente.jospace.de
 
 # Database connection parameters
 db:
