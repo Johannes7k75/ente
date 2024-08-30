@@ -114,35 +114,36 @@ s3:
     #hot_storage:
     #    primary: b2-eu-cen
     #    secondary: wasabi-eu-central-2-v3
+    are_local_buckets: true
     b2-eu-cen:
-        key:
-        secret:
-        endpoint:
-        region:
-        bucket:
+        key: test
+        secret: testtest
+        endpoint: localhost:3200
+        region: eu-central-2 
+        bucket: b2-eu-cen
     wasabi-eu-central-2-v3:
-        key:
-        secret:
-        endpoint:
-        region:
-        bucket:
+        key: test
+        secret: testtest
+        endpoint: localhost:3200
+        region: eu-central-2
+        bucket: wasabi-eu-central-2-v3
         # If enabled, this causes us to opt the object out of the compliance
         # lock when the object is deleted. See "Wasabi Compliance".
         #
         # Currently this flag is only honoured for the Wasabi v3 bucket.
         compliance: true
     scw-eu-fr-v3:
-        key:
-        secret:
-        endpoint:
-        region:
-        bucket:
+        key: test
+        secret: testtest
+        endpoint: localhost:3200
+        region: eu-central-2
+        bucket: scw-eu-fr-v3
     wasabi-eu-central-2-derived:
-        key:
-        secret:
-        endpoint:
-        region:
-        bucket:
+        key: test
+        secret: testtest
+        endpoint: localhost:3200
+        region: eu-central-2
+        bucket: wasabi-eu-central-2-derived
     # Derived storage bucket is used for storing derived data like embeddings, preview etc.
     # By default, it is the same as the hot storage bucket.
     # derived-storage: wasabi-eu-central-2-derived
