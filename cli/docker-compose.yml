@@ -1,6 +1,9 @@
 services:
   ente:
-    image: ente:latest
+    build:
+      context: .
+      tags:
+        - ente:latest
     command: /bin/sh
     network_mode: host
     volumes:
