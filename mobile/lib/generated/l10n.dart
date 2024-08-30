@@ -170,10 +170,10 @@ class S {
     );
   }
 
-  /// `Yes, I want to permanently delete this account and all its data.`
+  /// `Yes, I want to permanently delete this account and its data across all apps.`
   String get confirmDeletePrompt {
     return Intl.message(
-      'Yes, I want to permanently delete this account and all its data.',
+      'Yes, I want to permanently delete this account and its data across all apps.',
       name: 'confirmDeletePrompt',
       desc: '',
       args: [],
@@ -3167,6 +3167,26 @@ class S {
     return Intl.message(
       'Backup settings',
       name: 'backupSettings',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Backup status`
+  String get backupStatus {
+    return Intl.message(
+      'Backup status',
+      name: 'backupStatus',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Items that have been backed up will show up here`
+  String get backupStatusDescription {
+    return Intl.message(
+      'Items that have been backed up will show up here',
+      name: 'backupStatusDescription',
       desc: '',
       args: [],
     );

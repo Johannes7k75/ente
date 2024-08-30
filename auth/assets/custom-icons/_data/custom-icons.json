@@ -640,6 +640,9 @@
       "hex": "6FE68A"
     },
     {
+      "title": "Upstox"
+    },
+    {
       "titile": "Vikunja",
       "slug": "vikunja"
     },
@@ -668,13 +671,6 @@
       ]
     },
     {
-      "title": "X",
-      "altNames": [
-        "twitter"
-      ],
-      "slug": "x"
-    },
-    {
       "title": "Yandex",
       "altNames": [
         "Ya",
@@ -701,6 +697,10 @@
       "title": "Newton",
       "altNames": ["Newton Crypto"],
       "slug": "newton"
+    },
+    {
+      "title": "RippleMatch",
+      "slug": "ripplematch"
     },
     {
       "title": "T-Mobile ID",
