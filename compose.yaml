@@ -5,9 +5,11 @@ volumes:
   custom-logs:
   postgres-data:
   minio-data:
-    type: none
-    o: bind
-    device: /mnt/IronWolf_4TB/minio-data
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: /mnt/IronWolf_4TB/minio-data
 
 services:
   museum:
